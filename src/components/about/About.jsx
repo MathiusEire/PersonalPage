@@ -1,8 +1,57 @@
 import React from 'react'
 import './about.css'
+import ME from '../../assets/me-about.JPG'
+import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {VscFolderLibrary} from 'react-icons/vsc'
+
 const About = () => {
   return (
-    <section id='about'>About</section>
+    <section id='about'>
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="About Image"/>
+          </div>
+        </div>
+
+        <div className="about__content">
+          <div className="about__cards">
+            <article className='about__card'>
+              <FaAward className='about__icon'/>
+              <h5>Experience</h5>
+              <small>3+ years of working experience</small>
+            </article>
+
+            <article className='about__card'>
+              <FiUsers className='about__icon'/>
+              <h5>Clients</h5>
+              <small>Client list or something</small>
+            </article>
+
+            <article className='about__card'>
+              <VscFolderLibrary className='about__icon'/>
+              <h5>Projects</h5>
+              <small>Project List</small>
+            </article>
+
+          </div>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate aliquam ut eius quasi et reiciendis ratione ipsum!
+            Sequi quos excepturi magni omnis quisquam saepe dolorem beatae, possimus quo numquam? Adipisci?
+          </p>
+
+          <a href="#contact" className='btn btn-primary' >Let's Talk</a>
+        </div>
+      
+
+      </div>
+    </section>
+
   )
 }
 
