@@ -93,9 +93,12 @@ const Experience = () => {
 
             <article className="Experience__details">
               <AiOutlineCheckCircle className='experience__details-icon'/>
-              <h4>Python</h4>
-              <small className='text-light'>Experienced</small>
+              <div>
+                <h4>Python</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
             </article>
+
           </div>
         </div>
 {/*END OF BACKEND */}
