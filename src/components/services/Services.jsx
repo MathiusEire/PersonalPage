@@ -17,22 +17,22 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>Modern and stylish design 
                 </p>
               </li>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>up-to-date development practices 
                 </p>
               </li>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>A wide variety of platform choice for building at the users request 
                 </p>
               </li>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>
                 </p>
               </li>
               <li>
@@ -52,32 +52,32 @@ const Services = () => {
             <ul className='service__list'>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>Fast and efficient work pace
                 </p>
               </li>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>Great client communication  
                 </p>
               </li>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>Attention to detail in all parts of my work 
                 </p>
               </li>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>competitively priced 
                 </p>
               </li>
               <li>
                 <BsCheck className="service__list-icon"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p>product satisfaction guaranteed 
                 </p>
               </li>
             </ul>
           </article>
-{/* END OF WEB DEV */}
+{/* END OF WEB DEV 
         <article className="service">
             <div className="service__head">
               <h3>Content Creation</h3>
@@ -112,7 +112,7 @@ const Services = () => {
             </ul>
 
         </article>
-{/* END OF CONTENT  */}
+ END OF CONTENT  */}
       </div>
     </section>
   )

@@ -29,23 +29,26 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>Client list or something</small>
+              <small>Open to Work</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>Project List</small>
+              <small>3 Completed Projects, 2 in development</small>
             </article>
 
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Cupiditate aliquam ut eius quasi et reiciendis ratione ipsum!
-            Sequi quos excepturi magni omnis quisquam saepe dolorem beatae, possimus quo numquam? Adipisci?
+          <p> 
+            <em>I am known to be a dedicated and highly self-motivated software engineer with an excellent foundation in
+            computer science and technology, eager to demonstrate the skills I have obtained and perfected.
+            recognised for adaptability, quick learning, and constant commitment to excellence. Seeking
+            opportunities to apply my current expertise and enthusiasm for advancing innovative software
+            Projects.</em>
           </p>
 
-          <a href="#contact" className='btn btn-primary' >Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       
 

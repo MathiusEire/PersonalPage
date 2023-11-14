@@ -13,14 +13,16 @@
 }
 
 :root{
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77,181,255,0.4);
+  --color-bg: #fffa9d;
+  --color-bg-variant: #e9faff;
+  --color-primary: #ff5e00;
+  --color-primary-variant: rgba(0, 0, 0, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255,255,255,0.6);
-
-  --transtion: all 400ms ease;
+  --color-light: rgba(0, 0, 0, 0.6);
+  --color-navbackground: #ff2600;
+  --color-accent: #e9faff;
+ 
+  --transtion: all 600ms ease;
 
   --container-width-lg: 75%;
   --conatainer-width-md: 86%;
@@ -39,13 +41,13 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-black);
     line-height: 1.7;
-    background-image: url(../src/assets/background-img.jpg);
+    background-image: url(../src/assets/background-img.jpeg);
 
 
 }
-/* =====gneral styles */
+/* general styles */
 
 .container {
     width: var(--container-width-lg);
